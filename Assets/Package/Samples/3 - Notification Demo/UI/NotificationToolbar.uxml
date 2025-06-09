@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <ui:VisualElement name="Container" class="absolute flex-row m-20" style="left: 0; bottom: 0;">
+        <ui:VisualElement name="Controls" class="flex-row align-items-end">
+            <ui:VisualElement class="flex-row p-8 general-1 br-10">
+                <ui:Button text="Success" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Success" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Info" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Info" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Error" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Error" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Custom" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Custom" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Custom 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Custom2" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Toggle Theme" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ThemeToggle" class="button button-small button-primary" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

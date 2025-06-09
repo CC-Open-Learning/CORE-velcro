@@ -1,0 +1,142 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Button-Icon-Square-Large" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20Square/Button-Icon-Square-Large.uxml?fileID=9197481963319205126&amp;guid=e2eccf86b49c15b4bac1b12176a60eb7&amp;type=3#Button-Icon-Square-Large" />
+    <ui:Template name="Button-Icon-Round-Large" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20Round/Button-Icon-Round-Large.uxml?fileID=9197481963319205126&amp;guid=72e1dd6a34618714fb5e9290d6138ffa&amp;type=3#Button-Icon-Round-Large" />
+    <ui:Template name="Button-Icon-NoBorders-Large" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20No%20Borders/Button-Icon-NoBorders-Large.uxml?fileID=9197481963319205126&amp;guid=cc5eda066fa4b5744b96a48daad534f6&amp;type=3#Button-Icon-NoBorders-Large" />
+    <ui:Template name="Button-Icon-Square-Medium" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20Square/Button-Icon-Square-Medium.uxml?fileID=9197481963319205126&amp;guid=06aae119a23e88a4fb102d73e3444325&amp;type=3#Button-Icon-Square-Medium" />
+    <ui:Template name="Button-Icon-Round-Medium" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20Round/Button-Icon-Round-Medium.uxml?fileID=9197481963319205126&amp;guid=348942e1dc0ece746b77dab844fb26eb&amp;type=3#Button-Icon-Round-Medium" />
+    <ui:Template name="Button-Icon-NoBorders-Medium" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20No%20Borders/Button-Icon-NoBorders-Medium.uxml?fileID=9197481963319205126&amp;guid=6f66d07778bbe284485d1d2f8daee9c9&amp;type=3#Button-Icon-NoBorders-Medium" />
+    <ui:Template name="Button-Icon-Square-Small" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20Square/Button-Icon-Square-Small.uxml?fileID=9197481963319205126&amp;guid=ab65b568aeadce346b3070c14a2672a6&amp;type=3#Button-Icon-Square-Small" />
+    <ui:Template name="Button-Icon-Round-Small" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20Round/Button-Icon-Round-Small.uxml?fileID=9197481963319205126&amp;guid=e244bb97bfef1344091e0067386d984e&amp;type=3#Button-Icon-Round-Small" />
+    <ui:Template name="Button-Icon-NoBorders-Small" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20No%20Borders/Button-Icon-NoBorders-Small.uxml?fileID=9197481963319205126&amp;guid=3cbb7e9427325e546aa007a1abf6e1a4&amp;type=3#Button-Icon-NoBorders-Small" />
+    <ui:Template name="Button-Icon-Square-XSmall" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20Square/Button-Icon-Square-XSmall.uxml?fileID=9197481963319205126&amp;guid=04f126c6c79ddc04c956491234b53029&amp;type=3#Button-Icon-Square-XSmall" />
+    <ui:Template name="Button-Icon-Round-XSmall" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20Round/Button-Icon-Round-XSmall.uxml?fileID=9197481963319205126&amp;guid=1d9d5d25986f1334388751ae00d23f71&amp;type=3#Button-Icon-Round-XSmall" />
+    <ui:Template name="Button-Icon-NoBorders-XSmall" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Icon%20No%20Borders/Button-Icon-NoBorders-XSmall.uxml?fileID=9197481963319205126&amp;guid=1be1b1b93b4bc5144a2d19b0e58b1bbb&amp;type=3#Button-Icon-NoBorders-XSmall" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <ui:VisualElement name="Canvas" class="justify-center align-items-center grow">
+        <ui:VisualElement name="Window-SingleBackground">
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+            <ui:VisualElement name="Canvas" class="grow align-items-center justify-center">
+                <ui:VisualElement name="Window" class="br-20 window-single">
+                    <ui:VisualElement name="Header">
+                        <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                        <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                        <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                        <ui:VisualElement name="Header" class="flex-row w-100">
+                            <ui:VisualElement name="HeaderEnd" class="absolute w-100 header-end br-tl-20 br-tr-20" style="flex-grow: 1;" />
+                            <ui:VisualElement name="HeaderStart" class="header-start">
+                                <ui:Label tabindex="-1" text="Icons" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" class="fw-700 fs-36 m-0 p-0 grow text-align-middle-left pl-20 header-label" />
+                            </ui:VisualElement>
+                            <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseBtn" class="fs-24 absolute" style="width: 35px; height: 35px; align-items: center; align-self: flex-end; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px; -unity-font-style: bold; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 20px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Content" class="p-8 justify-center align-items-center" style="flex-grow: 1;">
+                        <ui:VisualElement name="Labels" class="flex-row w-100 justify-space-around">
+                            <ui:Label tabindex="-1" text="Default" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Default" class="fs-24 fw-700 header-label p-0 m-0" />
+                            <ui:Label tabindex="-1" text="Clicked (V1 Left, V2 Right)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Clicked" class="fs-24 fw-700 header-label p-0 m-0" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="VisualElement" class="flex-row m-12 align-items-center w-100 justify-space-around">
+                            <ui:Instance template="Button-Icon-Square-Large" name="Button-Icon-Square-Large" />
+                            <ui:Instance template="Button-Icon-Round-Large" name="Button-Icon-Round-Large" />
+                            <ui:Instance template="Button-Icon-NoBorders-Large" name="Button-Icon-NoBorders-Large" />
+                            <ui:Instance template="Button-Icon-Square-Large" name="Button-Icon-Square-Large-ClickedV1" />
+                            <ui:VisualElement name="Button-Icon-Square-Large-ClickedV2">
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon-large icon-square m-0 p-0 br-10 align-items-center justify-center bw-2 icon-square-rounded-clicked-2">
+                                    <ui:VisualElement name="Image" class="icon-image icon-image-large" />
+                                </ui:Button>
+                            </ui:VisualElement>
+                            <ui:Instance template="Button-Icon-Round-Large" name="Button-Icon-Round-Large-ClickedV1" />
+                            <ui:VisualElement name="Button-Icon-Round-Large-ClickedV2">
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon-large icon-rounded p-0 m-0 justify-center align-items-center bw-2 icon-square-rounded-clicked-2">
+                                    <ui:VisualElement name="Image" class="icon-image-rounded icon-image icon-image-large" />
+                                </ui:Button>
+                            </ui:VisualElement>
+                            <ui:Instance template="Button-Icon-NoBorders-Large" name="Button-Icon-NoBorders-Large-Clicked" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="VisualElement" class="flex-row align-items-center m-12 justify-space-around w-100">
+                            <ui:Instance template="Button-Icon-Square-Medium" name="Button-Icon-Square-Medium" />
+                            <ui:Instance template="Button-Icon-Round-Medium" name="Button-Icon-Round-Medium" />
+                            <ui:Instance template="Button-Icon-NoBorders-Medium" name="Button-Icon-NoBorders-Medium" />
+                            <ui:Instance template="Button-Icon-Square-Medium" name="Button-Icon-Square-Medium-ClickedV1" />
+                            <ui:VisualElement name="Button-Icon-Square-Medium-ClickedV2">
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon-medium align-items-center justify-center p-0 m-0 br-10 icon-square bw-2 icon-square-rounded-clicked-2">
+                                    <ui:VisualElement name="Image" class="icon-image-medium icon-image-square icon-image" />
+                                </ui:Button>
+                            </ui:VisualElement>
+                            <ui:Instance template="Button-Icon-Round-Medium" name="Button-Icon-Round-Medium-ClickedV1" />
+                            <ui:VisualElement name="Button-Icon-Round-Medium-ClickedV2">
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon-rounded p-0 m-0 justify-center align-items-center bw-2 icon-medium icon-square-rounded-clicked-2">
+                                    <ui:VisualElement name="Image" class="icon-image-rounded icon-image icon-image-medium" />
+                                </ui:Button>
+                            </ui:VisualElement>
+                            <ui:Instance template="Button-Icon-NoBorders-Medium" name="Button-Icon-NoBorders-Medium-Clicked" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="VisualElement" class="flex-row align-items-center m-12 w-100 justify-space-around">
+                            <ui:Instance template="Button-Icon-Square-Small" name="Button-Icon-Square-Small" />
+                            <ui:Instance template="Button-Icon-Round-Small" name="Button-Icon-Round-Small" />
+                            <ui:Instance template="Button-Icon-NoBorders-Small" name="Button-Icon-NoBorders-Small" />
+                            <ui:Instance template="Button-Icon-Square-Small" name="Button-Icon-Square-Small-ClickedV1" />
+                            <ui:VisualElement name="Button-Icon-Square-Small-ClickedV2">
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon-small icon-square p-0 m-0 br-10 align-items-center justify-center bw-1 icon-square-rounded-clicked-2">
+                                    <ui:VisualElement name="Image" class="icon-image icon-image-small icon-image-square" />
+                                </ui:Button>
+                            </ui:VisualElement>
+                            <ui:Instance template="Button-Icon-Round-Small" name="Button-Icon-Round-Small-ClickedV1" />
+                            <ui:VisualElement name="Button-Icon-Round-Small-ClickedV2">
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon-rounded p-0 m-0 justify-center align-items-center icon-small bw-1 icon-square-rounded-clicked-2">
+                                    <ui:VisualElement name="Image" class="icon-image-rounded icon-image icon-image-small" />
+                                </ui:Button>
+                            </ui:VisualElement>
+                            <ui:Instance template="Button-Icon-NoBorders-Small" name="Button-Icon-NoBorders-Small-Clicked" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="VisualElement" class="flex-row align-items-center m-12 w-100 justify-space-around">
+                            <ui:Instance template="Button-Icon-Square-XSmall" name="Button-Icon-Square-XSmall" />
+                            <ui:Instance template="Button-Icon-Round-XSmall" name="Button-Icon-Round-XSmall" />
+                            <ui:Instance template="Button-Icon-NoBorders-XSmall" name="Button-Icon-NoBorders-XSmall" />
+                            <ui:Instance template="Button-Icon-Square-XSmall" name="Button-Icon-Square-XSmall-ClickedV1" />
+                            <ui:VisualElement name="Button-Icon-Square-XSmall-ClickedV2">
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="p-0 m-0 icon-xsmall icon-square align-items-center justify-center icon-square-small icon-square-rounded-clicked-2">
+                                    <ui:VisualElement name="Image" class="icon-image icon-image-xsmall icon-image-square" />
+                                </ui:Button>
+                            </ui:VisualElement>
+                            <ui:Instance template="Button-Icon-Round-XSmall" name="Button-Icon-Round-XSmall-ClickedV1" />
+                            <ui:VisualElement name="Button-Icon-Round-XSmall-ClickedV2">
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Icon" class="icon-rounded p-0 m-0 justify-center align-items-center bw-1 icon-xsmall icon-square-rounded-clicked-2">
+                                    <ui:VisualElement name="Image" class="icon-image-rounded icon-image icon-image-xsmall" />
+                                </ui:Button>
+                            </ui:VisualElement>
+                            <ui:Instance template="Button-Icon-NoBorders-XSmall" name="Button-Icon-NoBorders-XSmall-Clicked" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

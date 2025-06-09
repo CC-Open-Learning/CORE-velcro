@@ -1,0 +1,35 @@
+{
+	"name": "com.varlab.velcro", 
+	"displayName": "VELCRO UI",
+	"version": "1.1.8",
+	"unity": "2022.3",
+	"description": "VELCRO UI is a USS and UI library for VARLab DLX. This includes USS classes for structure, style, and controls, templates for controls (buttons, sliders, etc.), and complete UI prefabs to import for DLX hookup (Notifications, Settings Menu, etc.)",
+	"category": "UI",
+	"changelogUrl": "https://varlab-dev.atlassian.net/wiki/spaces/CV2/pages/1302757406/Changelog+Version+History",
+	"documentationUrl": "https://varlab-dev.atlassian.net/wiki/spaces/CV2/pages/1118404624/VELCRO+UI",
+	"author": {
+		"name": "Packaging Pete",
+		"email": "pete@petesprofessionalpackagingparlor.io",
+		"url": "https://varlab-dev.atlassian.net/wiki/spaces/CV2/overview"
+	},
+	"keywords": [
+		"unity",
+		"editor",
+		"upm",
+		"ui",
+		"ui toolkit"
+	],
+	"dependencies": {
+    	"com.unity.2d.sprite": "1.0.0"
+  	},
+	"samples": [
+		{
+			"displayName": "VELCRO UI Demos",
+			"description": "Contains a demo scene for each UI prefab, and one scene for all controls/templates",
+			"path": "Samples~/"
+		}
+	],
+	"publishConfig": {
+		"registry": "http://upm.core.varlab.org:4873/"
+	}
+}

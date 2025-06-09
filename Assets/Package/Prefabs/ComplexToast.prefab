@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5186186242197104073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6490622015974184602}
+  - component: {fileID: 4524277134147063656}
+  - component: {fileID: 6997993679328059957}
+  m_Layer: 5
+  m_Name: ComplexToast
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6490622015974184602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186186242197104073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4524277134147063656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186186242197104073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 9a8286b1731dac54ea07913493e287ce, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: dedbcef91e5d7964b87f0e5f547a9beb, type: 3}
+  m_SortingOrder: 1
+--- !u!114 &6997993679328059957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186186242197104073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d36002bbf0445a34e829e2630038f67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeDuration: 0.75
+  translateDirection: 0
+  hintIcon: {fileID: 21300000, guid: 911f360236ebe284a8d47a8f11e65805, type: 3}
+  locationIcon: {fileID: 21300000, guid: 10a5fd5af2eb2bc48837f2f342bf5fa0, type: 3}
+  customIcon: {fileID: 21300000, guid: df9d3b26fba07f7439a7da691d26807d, type: 3}
+  customBackgroundColour: {r: 0, g: 0, b: 0, a: 1}
+  customHeaderColour: {r: 1, g: 1, b: 1, a: 1}
+  customMessageColour: {r: 1, g: 1, b: 1, a: 1}
+  OnToastShown:
+    m_PersistentCalls:
+      m_Calls: []
+  OnToastHidden:
+    m_PersistentCalls:
+      m_Calls: []

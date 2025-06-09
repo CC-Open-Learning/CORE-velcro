@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <ui:VisualElement name="Canvas" class="justify-center align-self-center grow w-100" style="flex-grow: 1;">
+        <ui:VisualElement name="Window-DoubleBackground">
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+            <ui:VisualElement name="Canvas" class="grow align-items-center justify-center">
+                <ui:VisualElement name="Window" class="br-20 window-double">
+                    <ui:VisualElement name="Header" style="height: 75px; justify-content: center;">
+                        <ui:Label tabindex="-1" text="Window 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" class="header-label fs-36 fw-400 m-0 p-0 pl-20 text-align-middle-left grow" />
+                        <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseBtn" class="fs-24 absolute" style="width: 35px; height: 35px; align-items: center; align-self: flex-end; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px; -unity-font-style: bold; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 20px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Content" class="window-double-content br-20 grow mb-28 mr-28 ml-28" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

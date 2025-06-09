@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <ui:VisualElement name="Container" class="absolute flex-row m-20" style="left: 0; bottom: 0;">
+        <ui:VisualElement name="Controls" class="flex-row align-items-end">
+            <ui:VisualElement class="flex-row p-8 br-tl-10 br-bl-10 general-1" style="padding-right: 0;">
+                <ui:Button text="Confirm 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Confirmation1" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Confirm 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Confirmation2" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Info 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Information1" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Info 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Information2" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Image 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Image1" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Image 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Image2" class="button button-small button-primary" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Extra" class="flex-row align-items-end">
+            <ui:VisualElement class="p-8 general-1 br-tr-10 br-br-10" style="flex-grow: 1;">
+                <ui:Button text="Toggle Theme" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ThemeToggle" class="button button-small button-primary" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

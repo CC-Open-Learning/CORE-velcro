@@ -1,0 +1,18 @@
+{
+    "name": "VARLab.Velcro.Editor",
+    "rootNamespace": "VARLab.Velcro",
+    "references": [
+        "GUID:fcced1498d070e94cb1e442cd52820a4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

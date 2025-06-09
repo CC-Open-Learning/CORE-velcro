@@ -1,0 +1,12 @@
+.layout-container {
+    width: 1500px;
+    height: 800px;
+}
+
+.layout-tabContent {
+    color: #FFFFFF;
+}
+
+.layout-tab {
+        background-color: var(--navigation-horizontal-background-colour);
+}

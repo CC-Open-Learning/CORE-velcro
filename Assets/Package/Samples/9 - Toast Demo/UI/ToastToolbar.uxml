@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <ui:VisualElement name="Container" class="absolute flex-row m-20 grow w-100 h-100" style="left: 0; bottom: 0; margin-bottom: 200px;">
+        <ui:VisualElement name="Controls" class="flex-row align-items-end">
+            <ui:VisualElement class="flex-column">
+                <ui:VisualElement name="Row" class="p-8 general-1 br-tl-10 flex-row br-tr-10">
+                    <ui:Button text="Simple 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Simple1" class="button button-small button-primary" style="margin-right: 8px;" />
+                    <ui:Button text="Simple 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Simple2" class="button button-small button-primary" style="margin-right: 8px;" />
+                    <ui:Button text="Simple 3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Simple3" class="button button-small button-primary" style="margin-right: 8px;" />
+                    <ui:Button text="Set Custom" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SimpleCustom" class="button button-small button-primary" style="margin-right: 8px;" />
+                    <ui:Button text="Hide" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SimpleHide" class="button button-small button-primary" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Row" class="general-1 flex-row br-bl-10 br-br-10 pl-8 pr-8 pb-8">
+                    <ui:Button text="Complex 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Complex1" class="button button-small button-primary" style="margin-right: 8px;" />
+                    <ui:Button text="Complex 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Complex2" class="button button-small button-primary" style="margin-right: 8px;" />
+                    <ui:Button text="Complex 3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Complex3" class="button button-small button-primary" style="margin-right: 8px;" />
+                    <ui:Button text="Set Custom" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ComplexCustom" class="button button-small button-primary" style="margin-right: 8px;" />
+                    <ui:Button text="Hide" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ComplexHide" class="button button-small button-primary" style="margin-right: 8px;" />
+                    <ui:Button text="Toggle Theme" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ThemeToggle" class="button button-small button-primary" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

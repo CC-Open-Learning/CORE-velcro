@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Navigation" src="project://database/Assets/VELCRO%20UI/Templates/Tabs/Tab-Horizontal.uxml?fileID=9197481963319205126&amp;guid=d847d4285b6b9d847acf2eb7a677b49e&amp;type=3#Tab-Horizontal" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/Package/Samples/13%20-%20Tab%20Layout%20Demo/UI/velcro-navigation-demo.uss?fileID=7433441132597879392&amp;guid=b8cff47bd8f8cd84ba00ec3b9aacbd3a&amp;type=3#velcro-navigation-demo" />
+    <ui:VisualElement name="Canvas" class="grow w-100 align-items-center justify-center">
+        <ui:VisualElement name="LayoutContainer" class="layout-container layout-tab br-10 m-40 hide-overflow">
+            <ui:Instance template="Navigation" name="Navigation" />
+            <ui:VisualElement name="TabContent" class="w-100 grow">
+                <ui:Label tabindex="-1" text="One" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TabOne" class="grow w-100 layout-tabContent fs-60 text-align-middle-center" />
+                <ui:Label tabindex="-1" text="Two" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TabTwo" class="layout-tabContent fs-60 text-align-middle-center grow w-100" />
+                <ui:Label tabindex="-1" text="Three" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TabThree" class="layout-tabContent fs-60 text-align-middle-center grow w-100" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

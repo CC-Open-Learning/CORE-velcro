@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <ui:VisualElement name="Canvas" class="grow align-items-center justify-center">
+        <ui:VisualElement name="Window" class="br-20 window-single" style="height: 650px;">
+            <ui:VisualElement name="Header">
+                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                <ui:VisualElement name="Header" class="flex-row w-100">
+                    <ui:VisualElement name="HeaderEnd" class="absolute w-100 header-end br-tl-20 br-tr-20" style="flex-grow: 1;" />
+                    <ui:VisualElement name="HeaderStart" class="header-start pl-32" style="width: auto; height: auto;">
+                        <ui:Label tabindex="-1" text="Light" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" class="fw-700 fs-36 m-0 p-0 grow text-align-middle-left header-label" />
+                    </ui:VisualElement>
+                    <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseBtn" class="fs-24 absolute" style="width: 35px; height: 35px; align-items: center; align-self: flex-end; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px; -unity-font-style: bold; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 20px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Content" class="p-40 grow justify-center">
+                <ui:VisualElement name="Regular" class="fs-24 mb-40 fw-300">
+                    <ui:Label tabindex="-1" text="Light (fw-300)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" class="text-wrap" style="color: rgb(120, 120, 120);" />
+                    <ui:Label tabindex="-1" text="The quick brown fox jumps over the lazy dog" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LowerCase" class="text-wrap" style="color: rgb(120, 120, 120);" />
+                    <ui:Label tabindex="-1" text="THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG" parse-escape-sequences="true" display-tooltip-when-elided="true" name="UpperCase" class="text-wrap" style="color: rgb(120, 120, 120);" />
+                    <ui:Label tabindex="-1" text="0 1 2 3 4 5 6 7 8 9" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Digits" class="text-wrap" style="color: rgb(120, 120, 120);" />
+                    <ui:Label tabindex="-1" text="! &quot; # $ % &amp; &apos; ( ) * + , - . / : ; &lt; = &gt; ? @ ^_ [ ] \ | ` ~" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SpecialCharacters" class="text-wrap" style="color: rgb(120, 120, 120);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Italic" class="fs-24 fw-300-italic">
+                    <ui:Label tabindex="-1" text="Light Italic (fw-300-italic)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" class="text-wrap" style="color: rgb(120, 120, 120);" />
+                    <ui:Label tabindex="-1" text="The quick brown fox jumps over the lazy dog" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LowerCase" class="text-wrap" style="color: rgb(120, 120, 120);" />
+                    <ui:Label tabindex="-1" text="THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG" parse-escape-sequences="true" display-tooltip-when-elided="true" name="UpperCase" class="text-wrap" style="color: rgb(120, 120, 120);" />
+                    <ui:Label tabindex="-1" text="0 1 2 3 4 5 6 7 8 9" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Digits" class="text-wrap" style="color: rgb(120, 120, 120);" />
+                    <ui:Label tabindex="-1" text="! &quot; # $ % &amp; &apos; ( ) * + , - . / : ; &lt; = &gt; ? @ ^_ [ ] \ | ` ~" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SpecialCharacters" class="text-wrap" style="color: rgb(120, 120, 120);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

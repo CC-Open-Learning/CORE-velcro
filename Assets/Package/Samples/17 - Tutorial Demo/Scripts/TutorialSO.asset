@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d05b771e617d2234392448abf809973e, type: 3}
+  m_Name: TutorialSO
+  m_EditorClassIdentifier: 
+  Name: Tutorial
+  SecondaryBtnText: Previous
+  TertiaryBtnText: Skip
+  TutorialSections:
+  - Image: {fileID: 21300000, guid: 7e422b7b5abf7d74ea9f75c1805a5635, type: 3}
+    Header: Velcro's Tutorial UI
+    Description: Hello! Welcome to the first page of this tutorial. Pressing the
+      next/previous button will advance/reverse the content.
+    PrimaryBtnText: Next
+  - Image: {fileID: 21300000, guid: 7e422b7b5abf7d74ea9f75c1805a5635, type: 3}
+    Header: Carousel Indicators
+    Description: You can also click on the carousel indicators below the image to
+      jump to a specific section.
+    PrimaryBtnText: Next
+  - Image: {fileID: 21300000, guid: 7e422b7b5abf7d74ea9f75c1805a5635, type: 3}
+    Header: Images
+    Description: All these sections use the same image, but you can set a different
+      image for each section.
+    PrimaryBtnText: Begin
+  IsBackgroundDimmed: 1

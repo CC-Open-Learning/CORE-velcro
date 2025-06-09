@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c4125019fb772845b7d26666c6d738d, type: 3}
+  m_Name: TaskListSO 1
+  m_EditorClassIdentifier: 
+  Alignment: 0
+  NotificationAlignment: 1
+  ListTitle: Demo Top Right
+  ProgressText: 'Completed:'
+  ListDescription: This is the list description
+  Tasks:
+  - TaskName: You can have tasks with longer task names without breaking the UI
+    TaskHint: This is the hint for task 1
+  - TaskName: List 2 Task 2
+    TaskHint: This is the hint for task 2
+  - TaskName: List 2 Task 3
+    TaskHint: This is the hint for task 3
+  - TaskName: List 2 Task 4
+    TaskHint: This is the hint for task 4
+  - TaskName: List 2 Task 5
+    TaskHint: This is the hint for task 5

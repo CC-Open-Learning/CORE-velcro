@@ -1,0 +1,16 @@
+{
+    "name": "VARLab.Velcro",
+    "rootNamespace": "VARLab.Velcro",
+    "references": [
+        "GUID:58ecee8404a01684cb93614d37995872"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

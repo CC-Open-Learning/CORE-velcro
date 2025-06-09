@@ -1,0 +1,70 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Button-Primary-Icon-Large" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Primary/Button-Primary-Icon-Large.uxml?fileID=9197481963319205126&amp;guid=80a09dbf5d2069e4eadd514e8aa624a2&amp;type=3#Button-Primary-Icon-Large" />
+    <ui:Template name="Button-Primary-Icon-Medium" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Primary/Button-Primary-Icon-Medium.uxml?fileID=9197481963319205126&amp;guid=d4123457d7e61134e812a80bd51aba91&amp;type=3#Button-Primary-Icon-Medium" />
+    <ui:Template name="Button-Primary-Icon-Small" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Primary/Button-Primary-Icon-Small.uxml?fileID=9197481963319205126&amp;guid=cf0adce67ce690e48ac86d2efb563e0a&amp;type=3#Button-Primary-Icon-Small" />
+    <ui:Template name="Button-Secondary-Icon-Large-1" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Secondary%201/Button-Secondary-Icon-Large-1.uxml?fileID=9197481963319205126&amp;guid=e5e217952242ce44f885acf7dd9abc05&amp;type=3#Button-Secondary-Icon-Large-1" />
+    <ui:Template name="Button-Secondary-Icon-Medium-1" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Secondary%201/Button-Secondary-Icon-Medium-1.uxml?fileID=9197481963319205126&amp;guid=512f6ef54e811e1499685c07ff5e4f39&amp;type=3#Button-Secondary-Icon-Medium-1" />
+    <ui:Template name="Button-Secondary-Icon-Small-1" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Secondary%201/Button-Secondary-Icon-Small-1.uxml?fileID=9197481963319205126&amp;guid=0fa415dcff7c8294faa12ce92edd1505&amp;type=3#Button-Secondary-Icon-Small-1" />
+    <ui:Template name="Button-Secondary-Icon-Large-2" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Secondary%202/Button-Secondary-Icon-Large-2.uxml?fileID=9197481963319205126&amp;guid=befa35c0b40f8e846b8b24329607f119&amp;type=3#Button-Secondary-Icon-Large-2" />
+    <ui:Template name="Button-Secondary-Icon-Medium-2" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Secondary%202/Button-Secondary-Icon-Medium-2.uxml?fileID=9197481963319205126&amp;guid=8c446ef4608e70f43ba99fed72dc841e&amp;type=3#Button-Secondary-Icon-Medium-2" />
+    <ui:Template name="Button-Secondary-Icon-Small-2" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Secondary%202/Button-Secondary-Icon-Small-2.uxml?fileID=9197481963319205126&amp;guid=a757205e344e4ba46ae12da5003a5637&amp;type=3#Button-Secondary-Icon-Small-2" />
+    <ui:Template name="Button-Negative-Icon-Large-1" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Negative%201/Button-Negative-Icon-Large-1.uxml?fileID=9197481963319205126&amp;guid=f6e585a2c4444494f8ec1f07dc964af5&amp;type=3#Button-Negative-Icon-Large-1" />
+    <ui:Template name="Button-Negative-Icon-Medium-1" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Negative%201/Button-Negative-Icon-Medium-1.uxml?fileID=9197481963319205126&amp;guid=f0c1544caa4737848bed98e1fe350d58&amp;type=3#Button-Negative-Icon-Medium-1" />
+    <ui:Template name="Button-Negative-Icon-Small-1" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Negative%201/Button-Negative-Icon-Small-1.uxml?fileID=9197481963319205126&amp;guid=8a2b04b4bd2bc2841bf11f4433983a5c&amp;type=3#Button-Negative-Icon-Small-1" />
+    <ui:Template name="Button-Negative-Icon-Large-2" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Negative%202/Button-Negative-Icon-Large-2.uxml?fileID=9197481963319205126&amp;guid=6793c95193d86d646a233d17c8a54070&amp;type=3#Button-Negative-Icon-Large-2" />
+    <ui:Template name="Button-Negative-Icon-Medium-2" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Negative%202/Button-Negative-Icon-Medium-2.uxml?fileID=9197481963319205126&amp;guid=e03c955ff04efc74bbe2d13390a7255f&amp;type=3#Button-Negative-Icon-Medium-2" />
+    <ui:Template name="Button-Negative-Icon-Small-2" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Negative%202/Button-Negative-Icon-Small-2.uxml?fileID=9197481963319205126&amp;guid=df1ef5127ed21b54d8f800aa49f840d8&amp;type=3#Button-Negative-Icon-Small-2" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <ui:VisualElement name="Canvas" class="justify-center align-items-center grow">
+        <ui:VisualElement name="Window-SingleBackground">
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+            <ui:VisualElement name="Canvas" class="grow align-items-center justify-center">
+                <ui:VisualElement name="Window" class="br-20 window-single">
+                    <ui:VisualElement name="Header">
+                        <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                        <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                        <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                        <ui:VisualElement name="Header" class="flex-row w-100">
+                            <ui:VisualElement name="HeaderEnd" class="absolute w-100 header-end br-tl-20 br-tr-20" style="flex-grow: 1;" />
+                            <ui:VisualElement name="HeaderStart" class="header-start">
+                                <ui:Label tabindex="-1" text="Buttons with Icons" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" class="fw-700 fs-36 m-0 p-0 grow text-align-middle-left pl-20 header-label" />
+                            </ui:VisualElement>
+                            <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseBtn" class="fs-24 absolute" style="width: 35px; height: 35px; align-items: center; align-self: flex-end; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px; -unity-font-style: bold; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 20px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Content" class="p-8 justify-center align-items-center" style="flex-grow: 1;">
+                        <ui:VisualElement name="VisualElement" class="flex-row align-items-center m-12">
+                            <ui:Instance template="Button-Primary-Icon-Large" name="Button-Primary-Icon-Large" />
+                            <ui:Instance template="Button-Primary-Icon-Medium" name="Button-Primary-Icon-Medium" style="margin-right: 8px; margin-left: 8px;" />
+                            <ui:Instance template="Button-Primary-Icon-Small" name="Button-Primary-Icon-Small" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="VisualElement" class="flex-row align-items-center m-12">
+                            <ui:Instance template="Button-Secondary-Icon-Large-1" name="Button-Secondary-Icon-Large-1" />
+                            <ui:Instance template="Button-Secondary-Icon-Medium-1" name="Button-Secondary-Icon-Medium-1" style="margin-left: 8px; margin-right: 8px;" />
+                            <ui:Instance template="Button-Secondary-Icon-Small-1" name="Button-Secondary-Icon-Small-1" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="VisualElement" class="flex-row align-items-center m-12">
+                            <ui:Instance template="Button-Secondary-Icon-Large-2" name="Button-Secondary-Icon-Large-2" />
+                            <ui:Instance template="Button-Secondary-Icon-Medium-2" name="Button-Secondary-Icon-Medium-2" style="margin-left: 8px; margin-right: 8px;" />
+                            <ui:Instance template="Button-Secondary-Icon-Small-2" name="Button-Secondary-Icon-Small-2" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="VisualElement" class="flex-row align-items-center m-12">
+                            <ui:Instance template="Button-Negative-Icon-Large-1" name="Button-Negative-Icon-Large-1" />
+                            <ui:Instance template="Button-Negative-Icon-Medium-1" name="Button-Negative-Icon-Medium-1" style="margin-left: 8px; margin-right: 8px;" />
+                            <ui:Instance template="Button-Negative-Icon-Small-1" name="Button-Negative-Icon-Small-1" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="VisualElement" class="flex-row align-items-center m-12">
+                            <ui:Instance template="Button-Negative-Icon-Large-2" name="Button-Negative-Icon-Large-2" />
+                            <ui:Instance template="Button-Negative-Icon-Medium-2" name="Button-Negative-Icon-Medium-2" style="margin-left: 8px; margin-right: 8px;" />
+                            <ui:Instance template="Button-Negative-Icon-Small-2" name="Button-Negative-Icon-Small-2" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

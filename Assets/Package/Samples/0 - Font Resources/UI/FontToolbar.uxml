@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" class="absolute flex-row m-20" style="left: 0; bottom: 0;">
+        <ui:VisualElement name="Controls" class="flex-row align-items-end">
+            <ui:VisualElement name="VisualElement" class="flex-row p-8 general-1 br-10">
+                <ui:Button text="Thin" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FontThin" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Light" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FontLight" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Regular" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FontRegular" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Bold" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FontBold" class="button button-small button-primary" style="margin-right: 8px;" />
+                <ui:Button text="Black" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FontBlack" class="button button-small button-primary" />
+                <ui:Button text="Black" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ThemeToggle" class="button button-small button-primary" style="display: none;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-navigation.uss?fileID=7433441132597879392&amp;guid=2d2ef40308c964a4a8d71ded2242774c&amp;type=3#velcro-navigation" />
+    <Style src="project://database/Assets/Package/Samples/13%20-%20Tab%20Layout%20Demo/UI/velcro-navigation-demo.uss?fileID=7433441132597879392&amp;guid=b8cff47bd8f8cd84ba00ec3b9aacbd3a&amp;type=3#velcro-navigation-demo" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <ui:VisualElement name="Container" class="flex-row m-20 absolute" style="left: 0; bottom: 0;">
+        <ui:VisualElement name="Controls" class="flex-row align-items-end">
+            <ui:VisualElement name="VisualElement" class="flex-row p-8 general-1 br-10">
+                <ui:Button text="Toggle Horizontal" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ToggleHorizontal" class="button button-small button-primary" style="margin-right: 8px; width: 180px;" />
+                <ui:Button text="Toggle Vertical" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ToggleVertical" class="button button-small button-primary" style="margin-right: 8px; width: 180px;" />
+                <ui:Button text="Toggle Theme" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ThemeToggle" class="button button-small button-primary" style="width: 180px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

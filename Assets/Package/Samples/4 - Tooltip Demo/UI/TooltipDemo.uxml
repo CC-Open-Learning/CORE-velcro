@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <ui:VisualElement name="Canvas" class="p-48 grow w-100" style="flex-grow: 1;">
+        <ui:VisualElement name="TooltipsContainer" class="grow align-items-center justify-center">
+            <ui:VisualElement name="Row1" class="flex-row justify-space-around w-70 grow align-items-center">
+                <ui:VisualElement name="TooltipRight" class="green-1 br-25" style="width: 100px; height: 100px;">
+                    <ui:Label tabindex="-1" text="?" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" class="grow text-align-middle-center fw-700 fs-60" />
+                </ui:VisualElement>
+                <ui:VisualElement name="TooltipTop" class="green-1 br-25" style="width: 100px; height: 100px;">
+                    <ui:Label tabindex="-1" text="?" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" class="grow text-align-middle-center fw-700 fs-60" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Row2" class="flex-row justify-space-around w-70 grow align-items-center">
+                <ui:VisualElement name="TooltipBottom" class="green-1 br-25" style="width: 100px; height: 100px;">
+                    <ui:Label tabindex="-1" text="?" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" class="grow text-align-middle-center fw-700 fs-60" />
+                </ui:VisualElement>
+                <ui:VisualElement name="TooltipLeft" class="green-1 br-25" style="width: 100px; height: 100px;">
+                    <ui:Label tabindex="-1" text="?" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" class="grow text-align-middle-center fw-700 fs-60" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

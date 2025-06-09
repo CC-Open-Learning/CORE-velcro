@@ -1,0 +1,57 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Node-Completed" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Node%20Stepper/Node-Completed.uxml?fileID=9197481963319205126&amp;guid=255c84bb187105b48a8296efb268def4&amp;type=3#Node-Completed" />
+    <ui:Template name="Step-Completed" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Node%20Stepper/Step-Completed.uxml?fileID=9197481963319205126&amp;guid=61e515a11b7e496449ecffa089e36f78&amp;type=3#Step-Completed" />
+    <ui:Template name="Step-In-Progress" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Node%20Stepper/Step-In-Progress.uxml?fileID=9197481963319205126&amp;guid=11caad7b84794904995b5e8d62ed3fae&amp;type=3#Step-In-Progress" />
+    <ui:Template name="Node-In-Progress" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Node%20Stepper/Node-In-Progress.uxml?fileID=9197481963319205126&amp;guid=6c17771246d3d2a44a9b9516ec8aeb62&amp;type=3#Node-In-Progress" />
+    <ui:Template name="Step-Not-Started" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Node%20Stepper/Step-Not-Started.uxml?fileID=9197481963319205126&amp;guid=70262a1dee3aaf848b8e2cd15fa7ce57&amp;type=3#Step-Not-Started" />
+    <ui:Template name="Node-Not-Started" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Node%20Stepper/Node-Not-Started.uxml?fileID=9197481963319205126&amp;guid=c0a580fe9ca67ee47925819e4137a550&amp;type=3#Node-Not-Started" />
+    <ui:Template name="Arrow-Big-Start-Completed" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Arrow%20Steppers/Header%20&amp;%20Description/Arrow-Big-Start-Completed.uxml?fileID=9197481963319205126&amp;guid=7bd8516abaf46a04785be14cbecbf197&amp;type=3#Arrow-Big-Start-Completed" />
+    <ui:Template name="Arrow-Big-Middle-In-Progress" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Arrow%20Steppers/Header%20&amp;%20Description/Arrow-Big-Middle-In-Progress.uxml?fileID=9197481963319205126&amp;guid=3d762860e8a981449b98f54e4202c67e&amp;type=3#Arrow-Big-Middle-In-Progress" />
+    <ui:Template name="Arrow-Big-End-In-Progress" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Arrow%20Steppers/Header%20&amp;%20Description/Arrow-Big-End-In-Progress.uxml?fileID=9197481963319205126&amp;guid=434f268393bdc854eb64f0b118e87733&amp;type=3#Arrow-Big-End-In-Progress" />
+    <ui:Template name="Arrow-Small-Start-Completed" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Arrow%20Steppers/Header%20Only/Arrow-Small-Start-Completed.uxml?fileID=9197481963319205126&amp;guid=923ff044dd2af2349897af62e3da089c&amp;type=3#Arrow-Small-Start-Completed" />
+    <ui:Template name="Arrow-Small-Middle-Completed" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Arrow%20Steppers/Header%20Only/Arrow-Small-Middle-Completed.uxml?fileID=9197481963319205126&amp;guid=714591d7683ba26419bbf83ae1aa41c7&amp;type=3#Arrow-Small-Middle-Completed" />
+    <ui:Template name="Arrow-Small-End-In-Progress" src="project://database/Assets/VELCRO%20UI/Templates/Steppers/Arrow%20Steppers/Header%20Only/Arrow-Small-End-In-Progress.uxml?fileID=9197481963319205126&amp;guid=2518299cead352f4d8515914368a7414&amp;type=3#Arrow-Small-End-In-Progress" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <ui:VisualElement name="Canvas" class="grow align-items-center justify-center">
+        <ui:VisualElement name="Window" class="br-20 window-single" style="min-width: 1500px; min-height: 800px; max-height: 800px;">
+            <ui:VisualElement name="Header">
+                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                <ui:VisualElement name="Header" class="flex-row w-100">
+                    <ui:VisualElement name="HeaderEnd" class="absolute w-100 header-end br-tl-20 br-tr-20" style="flex-grow: 1;" />
+                    <ui:VisualElement name="HeaderStart" class="header-start">
+                        <ui:Label tabindex="-1" text="Steppers" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" class="fw-700 fs-36 m-0 p-0 grow text-align-middle-left pl-20 header-label" />
+                    </ui:VisualElement>
+                    <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseBtn" class="fs-24 absolute" style="width: 35px; height: 35px; align-items: center; align-self: flex-end; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px; -unity-font-style: bold; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 20px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Content" class="p-40 grow align-items-center">
+                <ui:Label tabindex="-1" text="Node Stepper" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NodeStepperLabel" class="fs-28 p-0 m-0 fw-700" style="color: rgb(117, 117, 117);" />
+                <ui:VisualElement name="NodeStepper" class="flex-row w-90 grow">
+                    <ui:Instance template="Node-Completed" name="Node-Completed" />
+                    <ui:Instance template="Step-Completed" name="Step-Completed" class="grow" />
+                    <ui:Instance template="Node-Completed" name="Node-Completed" />
+                    <ui:Instance template="Step-In-Progress" name="Step-In-Progress" class="grow" />
+                    <ui:Instance template="Node-In-Progress" name="Node-In-Progress" />
+                    <ui:Instance template="Step-Not-Started" name="Step-Not-Started" class="grow" />
+                    <ui:Instance template="Node-Not-Started" name="Node-Not-Started" />
+                </ui:VisualElement>
+                <ui:Label tabindex="-1" text="Arrow Stepper (With Title &amp; Description)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ArrowStepperLabel" class="fs-28 p-0 m-0 fw-700 mb-8" style="color: rgb(117, 117, 117);" />
+                <ui:VisualElement name="ArrowStepper" class="flex-row grow w-100">
+                    <ui:Instance template="Arrow-Big-Start-Completed" name="Arrow-Big-Start-Completed" class="grow w-100" />
+                    <ui:Instance template="Arrow-Big-Middle-In-Progress" name="Arrow-Big-Middle-In-Progress" class="grow w-100" />
+                    <ui:Instance template="Arrow-Big-End-In-Progress" name="Arrow-Big-End-In-Progress" class="grow w-100" />
+                </ui:VisualElement>
+                <ui:Label tabindex="-1" text="Arrow Stepper (Only Titles)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ArrowStepperLabel" class="fs-28 p-0 m-0 fw-700 mb-8" style="color: rgb(117, 117, 117);" />
+                <ui:VisualElement name="ArrowStepper" class="flex-row grow w-100">
+                    <ui:Instance template="Arrow-Small-Start-Completed" name="Arrow-Small-Start-Completed" class="grow w-100" />
+                    <ui:Instance template="Arrow-Small-Middle-Completed" name="Arrow-Small-Middle-Completed" class="grow w-100" />
+                    <ui:Instance template="Arrow-Small-End-In-Progress" name="Arrow-Small-End-In-Progress" class="grow w-100" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

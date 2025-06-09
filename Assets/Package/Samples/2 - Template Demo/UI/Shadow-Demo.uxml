@@ -1,0 +1,51 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <ui:VisualElement name="Shadows" class="grow justify-space-around general-13">
+        <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseBtn" class="fs-24 absolute" style="width: 50px; height: 50px; align-items: center; align-self: flex-end; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px; -unity-font-style: bold; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 20px; top: 20px;" />
+        <ui:VisualElement name="Top" class="flex-row justify-space-around">
+            <ui:VisualElement name="Shadow">
+                <ui:VisualElement name="Shadow" style="width: 200px;">
+                    <VARLab.Velcro.BoxShadowManager outer-color="#78787800" inner-color="#7878782D" blur-width="2" name="BoxShadow" offset-y="3.5" scale-y="0.97" scale-x="0.99" style="border-top-left-radius: 8px; border-bottom-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px;">
+                        <ui:VisualElement name="Square" style="background-color: rgb(245, 245, 245); height: 200px;" />
+                    </VARLab.Velcro.BoxShadowManager>
+                </ui:VisualElement>
+                <ui:Label tabindex="-1" text="shadow" parse-escape-sequences="true" display-tooltip-when-elided="true" class="text-align-middle-center fw-700 fs-24" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Shadow-md">
+                <ui:VisualElement name="Shadow-md" style="width: 200px;">
+                    <VARLab.Velcro.BoxShadowManager outer-color="#78787800" inner-color="#78787828" blur-width="6" name="BoxShadow" offset-y="3.5" scale-y="0.97" scale-x="0.97" style="border-top-left-radius: 8px; border-bottom-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px;">
+                        <ui:VisualElement name="Square" style="background-color: rgb(245, 245, 245); height: 200px;" />
+                    </VARLab.Velcro.BoxShadowManager>
+                </ui:VisualElement>
+                <ui:Label tabindex="-1" text="shadow-md" parse-escape-sequences="true" display-tooltip-when-elided="true" class="text-align-middle-center fw-700 fs-24" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Shadow-lg">
+                <ui:VisualElement name="Shadow-lg" style="width: 200px;">
+                    <VARLab.Velcro.BoxShadowManager outer-color="#78787800" inner-color="#78787814" blur-width="12" name="BoxShadow" offset-y="15" scale-y="0.93" scale-x="0.98" style="border-top-left-radius: 8px; border-bottom-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px;">
+                        <ui:VisualElement name="Square" style="background-color: rgb(245, 245, 245); height: 200px;" />
+                    </VARLab.Velcro.BoxShadowManager>
+                </ui:VisualElement>
+                <ui:Label tabindex="-1" text="shadow-lg" parse-escape-sequences="true" display-tooltip-when-elided="true" class="text-align-middle-center fw-700 fs-24" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Bottom" class="flex-row justify-space-around">
+            <ui:VisualElement name="Shadow-xl">
+                <ui:VisualElement name="Shadow-xl" style="width: 200px;">
+                    <VARLab.Velcro.BoxShadowManager outer-color="#78787800" inner-color="#7878781E" blur-width="20" name="BoxShadow" offset-y="20" scale-y="0.93" scale-x="0.99" style="border-top-left-radius: 8px; border-bottom-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px;">
+                        <ui:VisualElement name="Square" style="background-color: rgb(245, 245, 245); height: 200px;" />
+                    </VARLab.Velcro.BoxShadowManager>
+                </ui:VisualElement>
+                <ui:Label tabindex="-1" text="shadow-xl" parse-escape-sequences="true" display-tooltip-when-elided="true" class="text-align-middle-center fw-700 fs-24" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Shadow-2xl">
+                <ui:VisualElement name="Shadow-2xl" style="width: 200px;">
+                    <VARLab.Velcro.BoxShadowManager outer-color="#78787800" inner-color="#78787828" blur-width="50" name="BoxShadow" offset-y="36" scale-y="0.93" scale-x="0.94" style="border-top-left-radius: 8px; border-bottom-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px;">
+                        <ui:VisualElement name="Square" style="background-color: rgb(245, 245, 245); height: 200px;" />
+                    </VARLab.Velcro.BoxShadowManager>
+                </ui:VisualElement>
+                <ui:Label tabindex="-1" text="shadow-2xl" parse-escape-sequences="true" display-tooltip-when-elided="true" class="text-align-middle-center fw-700 fs-24" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

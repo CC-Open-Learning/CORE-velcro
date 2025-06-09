@@ -1,0 +1,63 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Button-Radio-No-Label" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Radio/Button-Radio-No-Label.uxml?fileID=9197481963319205126&amp;guid=3162aa27bee1d5d439c6078d8d66104d&amp;type=3#Button-Radio-No-Label" />
+    <ui:Template name="Button-Radio-With-Label" src="project://database/Assets/VELCRO%20UI/Templates/Button%20Radio/Button-Radio-With-Label.uxml?fileID=9197481963319205126&amp;guid=e2fdae5fcea018246815ad662f47814d&amp;type=3#Button-Radio-With-Label" />
+    <ui:Template name="Checkbox" src="project://database/Assets/VELCRO%20UI/Templates/Checkbox/Checkbox.uxml?fileID=9197481963319205126&amp;guid=e62d21067d8c2784f993f682df17fc09&amp;type=3#Checkbox" />
+    <ui:Template name="Slider" src="project://database/Assets/VELCRO%20UI/Templates/Slider/Slider.uxml?fileID=9197481963319205126&amp;guid=d161493787370dc449c32fd3187c47a1&amp;type=3#Slider" />
+    <ui:Template name="Toggle" src="project://database/Assets/VELCRO%20UI/Templates/Toggle/Toggle.uxml?fileID=9197481963319205126&amp;guid=99f9f23e8d3400747b660070e36d94d3&amp;type=3#Toggle" />
+    <ui:Template name="Dropdown" src="project://database/Assets/VELCRO%20UI/Templates/Dropdown/Dropdown.uxml?fileID=9197481963319205126&amp;guid=fe3ab08052d140b47bddb72dbb3326f8&amp;type=3#Dropdown" />
+    <ui:Template name="Filter_Large" src="project://database/Assets/VELCRO%20UI/Templates/Filter%20Tags/Filter_Large.uxml?fileID=9197481963319205126&amp;guid=f2b7b665ef0056848bf8f2d38741b3a3&amp;type=3#Filter_Large" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <ui:VisualElement name="Canvas" class="justify-center align-items-center" style="flex-grow: 1;">
+        <ui:VisualElement name="Window-SingleBackground">
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+            <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+            <ui:VisualElement name="Canvas" class="grow align-items-center justify-center">
+                <ui:VisualElement name="Window" class="br-20 window-single">
+                    <ui:VisualElement name="Header">
+                        <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                        <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                        <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                        <ui:VisualElement name="Header" class="flex-row w-100">
+                            <ui:VisualElement name="HeaderEnd" class="absolute w-100 header-end br-tl-20 br-tr-20" style="flex-grow: 1;" />
+                            <ui:VisualElement name="HeaderStart" class="header-start">
+                                <ui:Label tabindex="-1" text="Controls" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" class="fw-700 fs-36 m-0 p-0 grow text-align-middle-left pl-20 header-label" />
+                            </ui:VisualElement>
+                            <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseBtn" class="fs-24 absolute" style="width: 35px; height: 35px; align-items: center; align-self: flex-end; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px; -unity-font-style: bold; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 10px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Content" class="grow align-items-center justify-center p-8" style="flex-grow: 1;">
+                        <ui:VisualElement name="VisualElement" class="flex-row align-items-center m-12">
+                            <ui:Instance template="Button-Radio-No-Label" name="Button-Radio-No-Label" style="margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px;" />
+                            <ui:Instance template="Button-Radio-With-Label" name="Button-Radio-With-Label" style="margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px;" />
+                            <ui:Instance template="Checkbox" name="Checkbox" style="margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px;" />
+                            <ui:Instance template="Slider" name="Slider" style="width: 200px; margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px;" />
+                            <ui:Instance template="Toggle" name="Toggle" style="margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="VisualElement" class="w-100 justify-center m-12" style="max-width: 745px;">
+                            <ui:Instance template="Dropdown" name="Dropdown">
+                                <AttributeOverrides element-name="DropdownField" choices="Option 1, Option 2, Option 3" />
+                            </ui:Instance>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="VisualElement" class="flex-row align-items-center m-12 w-100 justify-space-around">
+                            <ui:VisualElement style="min-width: 100px; min-height: 50px;">
+                                <ui:Instance template="Filter_Large" name="Filter_Large" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="min-width: 100px; min-height: 50px;">
+                                <ui:Instance template="Filter_Large" name="Filter_Large" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="min-width: 100px; min-height: 50px;">
+                                <ui:Instance template="Filter_Large" name="Filter_Large" />
+                            </ui:VisualElement>
+                            <ui:VisualElement style="min-width: 100px; min-height: 50px;">
+                                <ui:Instance template="Filter_Large" name="Filter_Large" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

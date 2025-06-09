@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="CardV1_Default" src="project://database/Assets/VELCRO%20UI/Templates/Cards/CardOne_Default.uxml?fileID=9197481963319205126&amp;guid=8a956196a4934f045a8554d4c40101c0&amp;type=3#CardOne_Default" />
+    <ui:Template name="CardV1_Image" src="project://database/Assets/VELCRO%20UI/Templates/Cards/CardOne_Image.uxml?fileID=9197481963319205126&amp;guid=04595895ab234624dae18a588f36919b&amp;type=3#CardOne_Image" />
+    <ui:Template name="CardV2_Completed" src="project://database/Assets/VELCRO%20UI/Templates/Cards/CardTwo_Completed.uxml?fileID=9197481963319205126&amp;guid=b1eb8e6f4b6a79c4d85c71a6e29d7f1c&amp;type=3#CardTwo_Completed" />
+    <ui:Template name="CardV2_InProgress" src="project://database/Assets/VELCRO%20UI/Templates/Cards/CardTwo_InProgress.uxml?fileID=9197481963319205126&amp;guid=992efd9c481a3ec4089f26c9b09b473f&amp;type=3#CardTwo_InProgress" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+    <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+    <ui:VisualElement name="Canvas" class="grow align-items-center justify-center">
+        <ui:VisualElement name="Window" class="br-20 window-single w-100 grow" style="margin-left: 100px; margin-right: 100px; margin-top: 100px; margin-bottom: 100px; width: auto; height: auto;">
+            <ui:VisualElement name="Header">
+                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-structure.uss?fileID=7433441132597879392&amp;guid=70d8b977a9d8e034a8a39d12ad97ed33&amp;type=3#velcro-structure" />
+                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-style.uss?fileID=7433441132597879392&amp;guid=ad7e253722514894984c83194c8b004b&amp;type=3#velcro-style" />
+                <Style src="project://database/Assets/VELCRO%20UI/Style%20Sheets/velcro-components.uss?fileID=7433441132597879392&amp;guid=360350781794bd14f942000338374586&amp;type=3#velcro-components" />
+                <ui:VisualElement name="Header" class="flex-row w-100">
+                    <ui:VisualElement name="HeaderEnd" class="absolute w-100 header-end br-tl-20 br-tr-20" style="flex-grow: 1;" />
+                    <ui:VisualElement name="HeaderStart" class="header-start">
+                        <ui:Label tabindex="-1" text="Cards 1-2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" class="fw-700 fs-36 m-0 p-0 grow text-align-middle-left pl-20 header-label" />
+                    </ui:VisualElement>
+                    <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseBtn" class="fs-24 absolute" style="width: 35px; height: 35px; align-items: center; align-self: flex-end; margin-left: 12px; margin-right: 12px; margin-top: 12px; margin-bottom: 12px; -unity-font-style: bold; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; right: 20px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Content" class="p-8 justify-center align-items-center" style="flex-grow: 1;">
+                <ui:VisualElement name="Row" class="flex-row w-100 justify-space-around">
+                    <ui:VisualElement name="Card" class="justify-center align-items-center" style="margin-left: 30px; margin-right: 15px;">
+                        <ui:Instance template="CardV1_Default" name="CardV1_Default" />
+                        <ui:Label tabindex="-1" text="Card 1 Default" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px; color: rgb(120, 120, 120); font-size: 28px; -unity-font-style: bold;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Card" class="justify-center align-items-center" style="margin-left: 15px; margin-right: 15px;">
+                        <ui:Instance template="CardV1_Image" name="CardV1_Image" />
+                        <ui:Label tabindex="-1" text="Card 1 with Image" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px; color: rgb(120, 120, 120); font-size: 28px; -unity-font-style: bold;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Card" class="justify-center align-items-center" style="margin-left: 15px; margin-right: 15px;">
+                        <ui:Instance template="CardV2_Completed" name="CardV2_Completed" />
+                        <ui:Label tabindex="-1" text="Card 2 Complete" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px; color: rgb(120, 120, 120); font-size: 28px; -unity-font-style: bold;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Card" class="justify-center align-items-center" style="margin-left: 15px; margin-right: 30px;">
+                        <ui:Instance template="CardV2_InProgress" name="CardV2_InProgress" />
+                        <ui:Label tabindex="-1" text="Card 2 Incomplete" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px; color: rgb(120, 120, 120); font-size: 28px; -unity-font-style: bold;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

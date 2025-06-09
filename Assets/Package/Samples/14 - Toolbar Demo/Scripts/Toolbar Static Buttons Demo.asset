@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aefd6258ae1458428b80f201c3c7dfb, type: 3}
+  m_Name: Toolbar Static Buttons Demo
+  m_EditorClassIdentifier: 
+  Buttons:
+  - icon: {fileID: 21300000, guid: f2c3171f586ffff4a968b57e57a7a2a2, type: 3}
+    text: Lorem Ipsum
+    OnClick:
+      m_PersistentCalls:
+        m_Calls: []
+  - icon: {fileID: 21300000, guid: e1e25c31cc4e41c40a20078aef2ca39e, type: 3}
+    text: Lorem Ipsum
+    OnClick:
+      m_PersistentCalls:
+        m_Calls: []
+  - icon: {fileID: 21300000, guid: 89f014148840f344b84a41c350a1f881, type: 3}
+    text: Lorem Ipsum
+    OnClick:
+      m_PersistentCalls:
+        m_Calls: []
